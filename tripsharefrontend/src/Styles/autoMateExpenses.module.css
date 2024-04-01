@@ -1,0 +1,107 @@
+.container {
+  background-color: #ffff;
+  width: 55%;
+  min-width: 420px;
+  padding: 35px 50px;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  margin-top: 300px;
+  margin-bottom: -150px;
+  border-radius: 10px;
+}
+.container:hover {
+  box-shadow: 1px 1px 8px 0px #2d8aed;
+}
+.imgcontainer {
+  width: 100%;
+}
+.imgcontainer img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+h1 {
+  font-size: 30px;
+  text-align: left;
+  color: #1c093c;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+p {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: #606060;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form {
+  width: 100%;
+  position: relative;
+  margin: 30px auto 0 auto;
+}
+
+.row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px 30px;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #1c093c;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  font-weight: 400;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+input {
+  border-color: #d1d0f2;
+}
+input:focus {
+  outline: none;
+  border-color: #d1d0f2;
+  box-shadow: 1px 1px 1px 0px #2d8aed;
+}
+
+.trackbtn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.trackbtn button {
+  border: none;
+  padding: 10px 20px;
+  background: #0d6efd;
+  border-radius: 15px;
+  width: 400px;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.trackbtn button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 8px 0px #0d6efd;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,85 @@
+.row {
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 20px;
+  align-items: center;
+}
+.cardContainer {
+  width: 100%;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 20px;
+
+  margin-right: -156px;
+}
+
+.cardBody {
+  width: 400px;
+  border: 1px solid #1882ff;
+  padding: 20px;
+  align-content: center;
+}
+.cardBody:hover {
+  box-shadow: 5px 3px 1px 0px #1882ff;
+}
+.cardName {
+  margin-left: 130px;
+  margin-top: -80px;
+  margin-bottom: 100px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.cardImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 18px;
+  align-content: center;
+  border-radius: 50px;
+}
+h6 {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+.text {
+  color: black;
+  font-size: 18px;
+  text-align: justify;
+}
+.cardAbout {
+  width: 100%;
+  margin-top: -30px;
+  padding: 10px;
+}
+
+.cardAbout,
+p {
+  text-align: justify;
+}
+.cardPlan {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 20px;
+  white-space: none;
+}
+
+.cardBtn button {
+  padding: 2px;
+
+  margin-bottom: 0px;
+  width: 100%;
+  height: 40px;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Light gray background color */
+  overflow-x: hidden;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Navbar {
+  background-color: white !important;
+  color: black !important;
+  font-size: 20px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.nav-link {
+  color: black; /* Default text color */
+  transition: color 0.3s, opacity 0.3s; /* Smooth transition for color and opacity */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change text color to black on hover */
+  opacity: 1; /* Decrease opacity on hover */
+  font-weight: 500;
+}
+
+.signupbtn {
+  color: black;
+  margin-right: 20px;
+  border: 0;
+  background-color: white;
+}
+.signupbtn:hover {
+  background-color: white;
+  color: black;
+}
+.msignupbtn {
+  margin-top: 10px;
+  margin-left: 180px;
+}
+
+/* @keyframes hideElement {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Apply the animation to the element */
+.toastBody {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 100px;
+  background: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d2d7dc;
+  border-radius: 50px;
+}

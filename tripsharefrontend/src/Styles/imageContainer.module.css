@@ -1,0 +1,36 @@
+.imgContainerStyle {
+    width: 1440px;
+    height: 392px;
+    object-fit: cover;
+  }
+  
+  .textContainerStyle {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: left;
+    margin-left: 120px;
+    color: #fff;
+    font-size: 54px;
+  }
+  
+  .searchBarStyle {
+    width: 400px;
+    height: 45px;
+    display: flex;
+    color: #d9d9d9;
+    border: 4px solid #d9d9d9;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+  
+  .searchBtnStyle {
+    background-color: #1882ff;
+    color: white;
+    border: 4px solid #1882ff;
+    border-radius: 50px;
+  }
+  
+.searchBtnStyle :hover{
+    opacity: 0.5;
+} 
